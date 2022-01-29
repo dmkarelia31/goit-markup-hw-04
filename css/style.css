@@ -127,8 +127,8 @@ html {
   color: #2196f3;
 }
 
-.nav-list :hover,
-.nav-list :focus {
+.nav-btn:hover,
+.nav-btn:focus {
   color: #2196f3;
 }
 
@@ -138,9 +138,9 @@ html {
   display: flex;
 }
 
-.contact-item :hover,
-.contact-item :focus {
-  color: #2196f3;
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-bg-color);
 }
 .header-contact {
   font-weight: 500;
