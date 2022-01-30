@@ -156,7 +156,7 @@ html {
 
 .hero {
   max-width: 1600px;
-  height: 600px;
+
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -170,7 +170,7 @@ html {
     url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero-container {
@@ -377,6 +377,7 @@ html {
 
 /* Секция Клиенты */
 .clients {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .clients-title {
@@ -458,7 +459,7 @@ html {
   min-width: 73px;
 }
 
-.filter-list :hover {
+.filter-item:hover {
   background-color: var(--accent-bg-color);
   color: var(--accent-text-color);
   border-radius: 4px;
@@ -466,7 +467,7 @@ html {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.filter-list :focus {
+.filter-item:focus {
   background-color: var(--accent-bg-color);
   color: var(--accent-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -489,10 +490,6 @@ html {
   letter-spacing: 0.03em;
   color: #757575;
   text-align: left;
-}
-
-.samples-galery {
-  background: #ffffff;
 }
 
 .sample-content {
@@ -520,7 +517,7 @@ html {
   margin-top: 30px;
 }
 
-.sample-icon:hover {
+.sample-link:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -585,7 +582,7 @@ html {
 
 /* Присоединяйтесь */
 
-.join-us {
+.join-us-title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -593,7 +590,6 @@ html {
   text-transform: uppercase;
   color: #fff;
   margin-bottom: 20px;
-  /* margin-left: 70px; */
 }
 
 .network-social {
